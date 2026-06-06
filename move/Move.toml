@@ -1,0 +1,13 @@
+[package]
+name = "demo_fa"
+version = "1.0.0"
+authors = []
+
+[addresses]
+# Assigned at publish time via --named-addresses demo_fa=<publisher>.
+demo_fa = "_"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"

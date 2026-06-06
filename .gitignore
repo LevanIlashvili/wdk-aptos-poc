@@ -1,0 +1,20 @@
+node_modules
+package-lock.json
+
+# Throwaway debug/verification scripts
+_*.mjs
+
+# Move build artifacts
+move/build
+
+# Local Aptos CLI config — HOLDS THE PUBLISHER PRIVATE KEY. Never commit.
+.aptos/
+**/.aptos/
+
+# Secrets / env / local machine cruft
+.env
+.env.*
+*.key
+*.pem
+*.log
+.DS_Store
