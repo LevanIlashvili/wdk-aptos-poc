@@ -6,6 +6,11 @@ Built with [Ink](https://github.com/vadimdemedes/ink) (React for the terminal).
 
 ![Demo: generating a seed, minting WDKT, and sending it on Aptos testnet](./assets/demo.gif)
 
+Real transactions from the demo run, on Aptos testnet:
+
+- **Send APT** (`0x1::aptos_account::transfer`, 0.2 APT) — [explorer](https://explorer.aptoslabs.com/txn/9109602883?network=testnet)
+- **Send WDKT** (`0x1::primary_fungible_store::transfer`, 5 WDKT) — [explorer](https://explorer.aptoslabs.com/txn/9109605574?network=testnet)
+
 > Testnet only. Do not enter a seed that holds real funds.
 
 ## The demo fungible asset (WDKT)
