@@ -4,6 +4,8 @@ A terminal wallet (TUI) proof-of-concept built on the published **[@tetherto/wdk
 
 Built with [Ink](https://github.com/vadimdemedes/ink) (React for the terminal).
 
+![Demo: generating a seed, minting WDKT, and sending it on Aptos testnet](./assets/demo.gif)
+
 > Testnet only. Do not enter a seed that holds real funds.
 
 ## The demo fungible asset (WDKT)
